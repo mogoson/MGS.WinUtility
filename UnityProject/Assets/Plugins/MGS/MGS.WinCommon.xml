@@ -60,6 +60,11 @@
             Windows network listener.
             </summary>
         </member>
+        <member name="P:MGS.WinCommon.Network.NetworkListener.RefreshRate">
+            <summary>
+            Listener refresh rate(milliseconds).
+            </summary>
+        </member>
         <member name="P:MGS.WinCommon.Network.NetworkListener.CurrentState">
             <summary>
             Current state of windows network.
@@ -75,14 +80,24 @@
             Last state of windows network.
             </summary>
         </member>
-        <member name="M:MGS.WinCommon.Network.NetworkListener.SingleAwake">
+        <member name="F:MGS.WinCommon.Network.NetworkListener.refreshThread">
             <summary>
-            Awake component.
+            Thread for refresh network state.
             </summary>
         </member>
         <member name="M:MGS.WinCommon.Network.NetworkListener.Update">
             <summary>
             Update listener.
+            </summary>
+        </member>
+        <member name="M:MGS.WinCommon.Network.NetworkListener.TurnOn">
+            <summary>
+            Turn on listener.
+            </summary>
+        </member>
+        <member name="M:MGS.WinCommon.Network.NetworkListener.TurnOff">
+            <summary>
+            Turn off listener.
             </summary>
         </member>
         <member name="T:MGS.WinCommon.Network.NetworkUtility">
@@ -95,6 +110,12 @@
             Retrieves the connected state of the local system.
             </summary>
             <returns>The connected state of the local system.</returns>
+        </member>
+        <member name="M:MGS.WinCommon.Network.NetworkUtility.GetMacAddress">
+            <summary>
+            Get the mac address of pc.
+            </summary>
+            <returns>Mac address of pc.</returns>
         </member>
     </members>
 </doc>

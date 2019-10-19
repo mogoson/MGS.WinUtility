@@ -1408,35 +1408,30 @@
             MonoBehaviour with a single instance.
             </summary>
         </member>
-        <member name="M:MGS.UCommon.DesignPattern.SingleBehaviour.SingleAwake">
-            <summary>
-            SingleBehaviour awake.
-            </summary>
-        </member>
         <member name="T:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1">
             <summary>
             MonoBehaviour with a single instance.
             </summary>
             <typeparam name="T">Specified type.</typeparam>
         </member>
+        <member name="T:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1.InnerSingleton">
+            <summary>
+            Inner singleton provide instance.
+            </summary>
+        </member>
+        <member name="F:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1.InnerSingleton.Instance">
+            <summary>
+            Single instance of the specified type T.
+            </summary>
+        </member>
+        <member name="M:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1.InnerSingleton.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit.
+            </summary>
+        </member>
         <member name="P:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1.Instance">
             <summary>
-            Instance of this MonoBehaviour.
-            </summary>
-        </member>
-        <member name="F:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1.instance">
-            <summary>
-            Instance of this MonoBehaviour.
-            </summary>
-        </member>
-        <member name="M:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1.Awake">
-            <summary>
-            Component awake.
-            </summary>
-        </member>
-        <member name="M:MGS.UCommon.DesignPattern.SingleMonoBehaviour`1.SingleAwake">
-            <summary>
-            SingleMonoBehaviour awake.
+            Single instance of the specified type T.
             </summary>
         </member>
         <member name="T:MGS.UCommon.Skin.ISkin">
