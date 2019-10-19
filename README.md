@@ -16,5 +16,9 @@
 
 ![File System Dialog](./Attachment/README_Image/FileSystemDialog.gif)
 
+- Network Box
+
+![Network Box](./Attachment/README_Image/NetworkBox.gif)
+
 ## Contact
 - If you have any questions, feel free to contact me at mogoson@outlook.com.
