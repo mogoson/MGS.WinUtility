@@ -35,6 +35,24 @@
             <param name="title">Title of dialog.</param>
             <returns>The path of selected folder.</returns>
         </member>
+        <member name="T:MGS.WinCommon.Utility.ExplorerUtility">
+            <summary>
+            Utility for windows explorer.
+            </summary>
+        </member>
+        <member name="F:MGS.WinCommon.Utility.ExplorerUtility.EXPLORER">
+            <summary>
+            Explorer process name.
+            </summary>
+        </member>
+        <member name="M:MGS.WinCommon.Utility.ExplorerUtility.Show(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Show target path(or file) in explorer.
+            </summary>
+            <param name="path">Target path(or file) to show.</param>
+            <param name="select">Select path?</param>
+            <param name="eMode">Show explorer mode?</param>
+        </member>
         <member name="T:MGS.WinCommon.Network.NetworkConnState">
             <summary>
             State of network connected state.
@@ -60,9 +78,9 @@
             Windows network listener.
             </summary>
         </member>
-        <member name="P:MGS.WinCommon.Network.NetworkListener.RefreshRate">
+        <member name="P:MGS.WinCommon.Network.NetworkListener.RefreshCycle">
             <summary>
-            Listener refresh rate(milliseconds).
+            Listener refresh cycle(ms).
             </summary>
         </member>
         <member name="P:MGS.WinCommon.Network.NetworkListener.CurrentState">
@@ -85,9 +103,14 @@
             Thread for refresh network state.
             </summary>
         </member>
-        <member name="M:MGS.WinCommon.Network.NetworkListener.Update">
+        <member name="M:MGS.WinCommon.Network.NetworkListener.#ctor">
             <summary>
-            Update listener.
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:MGS.WinCommon.Network.NetworkListener.OnUpdate">
+            <summary>
+            On update.
             </summary>
         </member>
         <member name="M:MGS.WinCommon.Network.NetworkListener.TurnOn">
