@@ -59,10 +59,6 @@
   var state = NetworkUtility.GetNetworkConnectState();
   ```
 
-- Preview
-
-  ![Network Utility](./Attachment/images/NetworkUtility.gif)
-
 ### ComdlgUtility
 
 - Implemented
@@ -84,10 +80,6 @@
   var folder = ComdlgUtility.OpenFolderDialog("Open Folder");
   ```
 
-- Preview
-
-  ![Comdlg Utility](./Attachment/images/ComdlgUtility.gif)
-
 ### ExplorerUtility
 
 - Implemented
@@ -107,6 +99,10 @@
 ## Demo
 
 - Demos in the path "MGS.Packages/WinUtility/Demo/" provide reference to you.
+
+## Source
+
+- https://github.com/mogoson/MGS.WinUtility.
 
 ------
 
