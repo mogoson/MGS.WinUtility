@@ -41,7 +41,8 @@
   public sealed class InetFlags{}
   ```
 
-  Module
+
+## Module
 
 ### NetworkUtility
 
