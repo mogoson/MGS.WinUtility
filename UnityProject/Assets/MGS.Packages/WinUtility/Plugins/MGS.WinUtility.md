@@ -1,10 +1,10 @@
 [TOC]
 
-﻿# MGS.WinCommon.dll
+﻿# MGS.WinUtility.dll
 
 ## Summary
 
-- Common code for Windows.
+- Common utility code for Windows.
 
 ## Environment
 

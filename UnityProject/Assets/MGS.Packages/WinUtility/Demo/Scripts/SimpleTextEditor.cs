@@ -10,7 +10,6 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
-using MGS.WinCommon.Utility;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
