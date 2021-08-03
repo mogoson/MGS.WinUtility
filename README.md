@@ -1,6 +1,6 @@
 [TOC]
 
-﻿# MGS.WinUtility
+# MGS.WinUtility
 
 ## Summary
 
