@@ -16,19 +16,29 @@
 
 ## Implemented
 
-```C#
-public sealed class Comdlg32{}
-public class OpenFileName{}
-public sealed class OFNFlags{}
-public sealed class OFNFlagsEx{}
+- Comdlg32.
 
-public sealed class Shell32{}
-public class BrowseInfo{}
-public sealed class BIFlags{}
+  ```C#
+  public sealed class Comdlg32{}
+  public class OpenFileName{}
+  public sealed class OFNFlags{}
+  public sealed class OFNFlagsEx{}
+  ```
 
-public sealed class Wininet{}
-public sealed class InetFlags{}
-```
+- Shell32.
+
+  ```C#
+  public sealed class Shell32{}
+  public class BrowseInfo{}
+  public sealed class BIFlags{}
+  ```
+
+- Wininet.
+
+  ```C#
+  public sealed class Wininet{}
+  public sealed class InetFlags{}
+  ```
 
 ------
 

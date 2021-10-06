@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MGS.WinUtility</name>
+    </assembly>
+    <members>
+        <member name="T:MGS.WinUtility.ComdlgUtility">
+            <summary>
+            Utility for Comdlg32.
+            </summary>
+        </member>
+        <member name="M:MGS.WinUtility.ComdlgUtility.OpenFileDialog(System.String,System.String,System.String)">
+            <summary>
+            Displays the "open file" dialog and returns the selected path name.
+            </summary>
+            <param name="title">Title of dialog.</param>
+            <param name="directory">Default directory of dialog.</param>
+            <param name="filter">Filter of dialog; example "Image(*.jpg;*.png)\0*.jpg;*.png".</param>
+            <returns>The path of selected file.</returns>
+        </member>
+        <member name="M:MGS.WinUtility.ComdlgUtility.SaveFileDialog(System.String,System.String,System.String,System.String)">
+            <summary>
+            Displays the "save file" dialog and returns the selected path name.
+            </summary>
+            <param name="title">Title of dialog.</param>
+            <param name="directory">Default directory of dialog.</param>
+            <param name="defaultName">Default name of save file.</param>
+            <param name="filter">Filter of dialog; example: "Text(*.txt)\0*.txt".</param>
+            <returns>The path of save file.</returns>
+        </member>
+        <member name="M:MGS.WinUtility.ComdlgUtility.OpenFolderDialog(System.String)">
+            <summary>
+            Displays the "open folder" dialog and returns the selected path name.
+            </summary>
+            <param name="title">Title of dialog.</param>
+            <returns>The path of selected folder.</returns>
+        </member>
+        <member name="T:MGS.WinUtility.NetworkConnState">
+            <summary>
+            State of network connected state.
+            </summary>
+        </member>
+        <member name="F:MGS.WinUtility.NetworkConnState.OFFLINE">
+            <summary>
+            Local system is in offline mode.
+            </summary>
+        </member>
+        <member name="F:MGS.WinUtility.NetworkConnState.ONLINE_MODEM">
+            <summary>
+            Local system uses a modem to connect to the Internet.
+            </summary>
+        </member>
+        <member name="F:MGS.WinUtility.NetworkConnState.ONLINE_LAN">
+            <summary>
+            Local system uses a local area network to connect to the Internet.
+            </summary>
+        </member>
+        <member name="T:MGS.WinUtility.NetworkUtility">
+            <summary>
+            Utility for windows network.
+            </summary>
+        </member>
+        <member name="M:MGS.WinUtility.NetworkUtility.GetNetworkConnectState">
+            <summary>
+            Retrieves the connected state of the local system.
+            </summary>
+            <returns>The connected state of the local system.</returns>
+        </member>
+        <member name="M:MGS.WinUtility.NetworkUtility.GetMacAddress">
+            <summary>
+            Get the mac address of pc.
+            </summary>
+            <returns>Mac address of pc.</returns>
+        </member>
+        <member name="T:MGS.WinUtility.ExplorerUtility">
+            <summary>
+            Utility for windows explorer.
+            </summary>
+        </member>
+        <member name="F:MGS.WinUtility.ExplorerUtility.EXPLORER">
+            <summary>
+            Explorer process name.
+            </summary>
+        </member>
+        <member name="M:MGS.WinUtility.ExplorerUtility.Show(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Show target path(or file) in explorer.
+            </summary>
+            <param name="path">Target path(or file) to show.</param>
+            <param name="select">Select path?</param>
+            <param name="eMode">Show explorer mode?</param>
+        </member>
+    </members>
+</doc>

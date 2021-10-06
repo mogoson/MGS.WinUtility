@@ -86,10 +86,9 @@
 - Implemented
 
   ```C#
-  public class ComdlgUtility{}
   public sealed class ExplorerUtility{}
   ```
-
+  
 - Usage
 
   ```C#

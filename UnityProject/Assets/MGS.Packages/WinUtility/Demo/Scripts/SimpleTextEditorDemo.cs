@@ -1,7 +1,7 @@
 /*************************************************************************
  *  Copyright © 2019 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  SimpleTextEditor.cs
+ *  File         :  SimpleTextEditorDemo.cs
  *  Description  :  Null.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
@@ -16,9 +16,8 @@ using UnityEngine.UI;
 
 namespace MGS.WinUtility.Demo
 {
-    public class SimpleTextEditor : MonoBehaviour
+    public class SimpleTextEditorDemo : MonoBehaviour
     {
-        #region Field and Property
         public Button btn_New;
         public Button btn_Open;
         public Button btn_Save;
@@ -30,9 +29,7 @@ namespace MGS.WinUtility.Demo
         protected string workDir = "c:\\";
         protected string currentFile = string.Empty;
         protected uint newFileNumber = 0;
-        #endregion
 
-        #region Protected Method
         protected virtual void Awake()
         {
             btn_New.onClick.AddListener(OnNewBtnClick);
@@ -107,6 +104,5 @@ namespace MGS.WinUtility.Demo
         {
             gameObject.SetActive(false);
         }
-        #endregion
     }
 }

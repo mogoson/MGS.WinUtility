@@ -1,7 +1,7 @@
 ﻿/*************************************************************************
  *  Copyright © 2019 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  NetworkBox.cs
+ *  File         :  NetworkBoxDemo.cs
  *  Description  :  Null.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
@@ -15,13 +15,10 @@ using UnityEngine.UI;
 
 namespace MGS.WinUtility.Demo
 {
-    public class NetworkBox : MonoBehaviour
+    public class NetworkBoxDemo : MonoBehaviour
     {
-        #region Field and Property
         public Text txt_State;
-        #endregion
 
-        #region Protected Method
         private void Update()
         {
             var state = NetworkUtility.GetNetworkConnectState();
@@ -45,6 +42,5 @@ namespace MGS.WinUtility.Demo
             }
             txt_State.text = stateText;
         }
-        #endregion
     }
 }
