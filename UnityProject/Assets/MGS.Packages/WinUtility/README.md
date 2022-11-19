@@ -1,6 +1,6 @@
 [TOC]
 
-﻿# MGS.WinUtility
+# MGS.WinUtility
 
 ## Summary
 
@@ -15,45 +15,9 @@
 
 - Windows
 
-## Implemented
-
-- Comdlg32.
-
-  ```C#
-  public sealed class Comdlg32{}
-  public class OpenFileName{}
-  public sealed class OFNFlags{}
-  public sealed class OFNFlagsEx{}
-  ```
-
-- Shell32.
-
-  ```C#
-  public sealed class Shell32{}
-  public class BrowseInfo{}
-  public sealed class BIFlags{}
-  ```
-
-- Wininet.
-
-  ```C#
-  public sealed class Wininet{}
-  public sealed class InetFlags{}
-  ```
-
-
 ## Module
 
 ### NetworkUtility
-
-- Implemented
-
-  ```C#
-  public enum NetworkConnState{}
-  public sealed class NetworkUtility{}
-  ```
-
-- Usage
 
   ```C#
   //Network connect state.
@@ -61,14 +25,6 @@
   ```
 
 ### ComdlgUtility
-
-- Implemented
-
-  ```C#
-  public class ComdlgUtility{}
-  ```
-
-- Usage
 
   ```C#
   //string title, string directory, string filter.
@@ -82,14 +38,6 @@
   ```
 
 ### ExplorerUtility
-
-- Implemented
-
-  ```C#
-  public sealed class ExplorerUtility{}
-  ```
-  
-- Usage
 
   ```C#
   //string path, bool select = true, bool eMode = true

@@ -15,49 +15,34 @@
 
 - Windows
 
-
 ## Module
 
 ### NetworkUtility
 
-- Usage
-
-  ```C#
-  //Network connect state.
-  var state = NetworkUtility.GetNetworkConnectState();
-  ```
-
-- Preview
-
-  ![Network Utility](./Attachment/images/NetworkUtility.gif)
+```C#
+//Network connect state.
+var state = NetworkUtility.GetNetworkConnectState();
+```
 
 ### ComdlgUtility
 
-- Usage
+```C#
+//string title, string directory, string filter.
+var selectFile = ComdlgUtility.OpenFileDialog("Open File", workDir, "Text(*.txt)\0*.txt");
 
-  ```C#
-  //string title, string directory, string filter.
-  var selectFile = ComdlgUtility.OpenFileDialog("Open File", workDir, "Text(*.txt)\0*.txt");
-  
-  //string title, string directory, string defaultName, string filter.
-  var saveFile = ComdlgUtility.SaveFileDialog("Save File", workDir, fileName, "Text(*.txt)\0*.txt");
-  
-  //string title.
-  var folder = ComdlgUtility.OpenFolderDialog("Open Folder");
-  ```
+//string title, string directory, string defaultName, string filter.
+var saveFile = ComdlgUtility.SaveFileDialog("Save File", workDir, fileName, "Text(*.txt)\0*.txt");
 
-- Preview
-
-  ![Comdlg Utility](./Attachment/images/ComdlgUtility.gif)
+//string title.
+var folder = ComdlgUtility.OpenFolderDialog("Open Folder");
+```
 
 ### ExplorerUtility
 
-- Usage
-
-  ```C#
-  //string path, bool select = true, bool eMode = true
-  ExplorerUtility.Show(workDir, false);
-  ```
+```C#
+//string path, bool select = true, bool eMode = true
+ExplorerUtility.Show(workDir, false);
+```
 
 ## Demo
 
