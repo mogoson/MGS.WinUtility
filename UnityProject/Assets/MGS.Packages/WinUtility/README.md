@@ -15,6 +15,10 @@
 
 - Windows
 
+## Version
+
+- 1.1.1
+
 ## Module
 
 ### NetworkUtility

@@ -1,7 +1,7 @@
 /*************************************************************************
  *  Copyright © 2022 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  SimpleTextEditorDemo.cs
+ *  File         :  SimpleTextEditor.cs
  *  Description  :  Null.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
@@ -16,7 +16,7 @@ using UnityEngine.UI;
 
 namespace MGS.WinUtility.Demo
 {
-    public class SimpleTextEditorDemo : MonoBehaviour
+    public class SimpleTextEditor : MonoBehaviour
     {
         public Button btn_New;
         public Button btn_Open;

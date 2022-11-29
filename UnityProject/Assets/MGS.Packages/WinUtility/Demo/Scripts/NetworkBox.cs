@@ -1,7 +1,7 @@
 ﻿/*************************************************************************
  *  Copyright © 2022 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  NetworkBoxDemo.cs
+ *  File         :  NetworkBox.cs
  *  Description  :  Null.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
@@ -15,7 +15,7 @@ using UnityEngine.UI;
 
 namespace MGS.WinUtility.Demo
 {
-    public class NetworkBoxDemo : MonoBehaviour
+    public class NetworkBox : MonoBehaviour
     {
         public Text txt_State;
 
