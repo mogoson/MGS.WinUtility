@@ -1,0 +1,24 @@
+{
+    "name": "com.mgs.winutility",
+    "version": "1.0.0",
+    "displayName": "Win Utility",
+    "description": "Windows utility for unity project develop.",
+    "unity": "2021.3",
+    "keywords": [
+        "network",
+        "comdlg",
+        "explorer"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    },
+    "samples": [
+        {
+            "displayName": "Sample",
+            "description": "Sample for windows utility",
+            "path": "Samples~/Sample"
+        }
+    ]
+}

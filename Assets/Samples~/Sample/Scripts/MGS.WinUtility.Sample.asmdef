@@ -1,0 +1,16 @@
+{
+    "name": "MGS.WinUtility.Sample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4dc7113087c674b44b4370fae62e6aa4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
