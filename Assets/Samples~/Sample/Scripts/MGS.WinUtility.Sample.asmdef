@@ -2,7 +2,7 @@
     "name": "MGS.WinUtility.Sample",
     "rootNamespace": "",
     "references": [
-        "GUID:4dc7113087c674b44b4370fae62e6aa4"
+        "MGS.WinUtility"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
